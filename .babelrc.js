@@ -3,6 +3,7 @@ module.exports = {
     [
       '@babel/preset-env',
       {
+        include: ['@babel/plugin-transform-classes'],
         useBuiltIns: 'usage' // experimental
       }
     ],
